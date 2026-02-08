@@ -1,6 +1,14 @@
 [package]
 name = "sunangle"
+descrption = "Calculate the angle of the sun in the sky"
 version = "0.1.0"
+authors = [ "Mike Dilger <mike@optcomp.nz>" ]
 edition = "2024"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/mikedilger/sunangle"
+keywords = [ "sun", "angle", "vector" ]
+categories = [ "date-and-time" ]
 
 [dependencies]
+astrotime = { git = "https://github.com/mikedilger/astrotime", branch = "master" }
