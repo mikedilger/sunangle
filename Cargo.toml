@@ -11,4 +11,4 @@ keywords = [ "sun", "angle", "vector" ]
 categories = [ "date-and-time" ]
 
 [dependencies]
-astrotime = { git = "https://github.com/mikedilger/astrotime", branch = "master" }
+astrotime = "0.2"

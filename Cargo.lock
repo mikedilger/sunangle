@@ -5,7 +5,8 @@ version = 4
 [[package]]
 name = "astrotime"
 version = "0.2.0"
-source = "git+https://github.com/mikedilger/astrotime?branch=master#be0033715200d4f4e114d63a5075d470649f28d2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e0e39040e20b7e4011fbaf2db2527e1d53b555ed3e2e97fd2c752a5b501fb870"
 
 [[package]]
 name = "sunangle"
